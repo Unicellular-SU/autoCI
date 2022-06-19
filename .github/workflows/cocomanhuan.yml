@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: '0 01 * * *'
+    - cron: '0 01,05,09,13,17 * * *'
 
 jobs:
   updateKeys:
